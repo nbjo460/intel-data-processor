@@ -1,6 +1,8 @@
 from mission_processor import load_mission_data, filter_by_status, count_by_priority
 from personnel_analyzer import load_personnel_data, filter_by_clearance, group_by_unit
 from report_generator import generate_mission_summary, generate_personnel_report
+from mission_processor import load_mission_data
+
 
 def main():
     print("=== ARMY INTELLIGENCE DATA PROCESSOR ===\n")
